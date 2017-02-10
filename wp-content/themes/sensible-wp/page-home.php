@@ -125,7 +125,5 @@ get_header(); ?>
         	<?php get_template_part( 'content', 'home-widget' ); // home widget ?>
 
 		<?php endif; ?>
-		<div class="" style="background-color:black">
-			<p>Realizado por NitroInteractivo</p>
-			<p>www.nitrointeractivo.com</p>
-		</div>
+
+<!-- <?php get_footer(); ?> -->

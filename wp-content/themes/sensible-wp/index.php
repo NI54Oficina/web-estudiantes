@@ -15,10 +15,10 @@ get_header(); ?>
 
 	<?php if ( get_theme_mod( 'sensiblewp_blog_bg' ) ) : ?>
     	<header class="entry-header blog-archive-header-bg" data-speed="8" data-type="background" style="background: url('<?php echo esc_url(get_theme_mod( 'sensiblewp_blog_bg' )); ?>') 50% 0 no-repeat fixed;">
-    <?php else : ?> 
+    <?php else : ?>
         <header class="entry-header">
-	<?php endif; ?> 
-          
+	<?php endif; ?>
+
     		<div class="grid grid-pad">
         		<div class="col-1-1">
 					<h1 class="entry-title"><?php echo esc_html( get_theme_mod( 'sensiblewp_blog_title', __( 'Blog', 'sensible-wp' ) )) ?></h1>
@@ -26,16 +26,18 @@ get_header(); ?>
         	</div><!-- grid -->
 		</header><!-- .entry-header -->
 
-    
+
 		<div class="grid grid-pad">
-			
+
             <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
         		<div id="primary" class="content-area col-9-12 blog-archive">
     		<?php else: ?>
     			<div id="primary" class="content-area col-1-1 blog-archive">
     		<?php endif; ?>
-            
+
 				<main id="main" class="site-main" role="main">
+
+					
 
 				<?php if ( have_posts() ) : ?>
 
@@ -52,7 +54,7 @@ get_header(); ?>
 
 					<?php endwhile; ?>
 
-						<?php sensiblewp_paging_nav(); ?> 
+						<?php sensiblewp_paging_nav(); ?>
 
 				<?php else : ?>
 
@@ -63,10 +65,10 @@ get_header(); ?>
 				</main><!-- #main -->
 			</div><!-- #primary -->
 
-		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?> 
+		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
     		<?php get_sidebar(); ?>
     	<?php endif; ?>
-        
+
 	</div><!-- grid -->
 
 <?php get_footer(); ?>

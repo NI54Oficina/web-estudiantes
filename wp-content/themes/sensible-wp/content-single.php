@@ -4,13 +4,14 @@
  */
 ?>
 
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>> 
-	
+	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
 		<div class="entry-content">
+			
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'sensible-wp' ), 
+				'before' => '<div class="page-links">' . __( 'Pages:', 'sensible-wp' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -18,5 +19,5 @@
 
 		<footer class="entry-footer">
 			<?php sensiblewp_entry_footer(); ?>
-		</footer><!-- .entry-footer -->  
+		</footer><!-- .entry-footer -->
 	</article><!-- #post-## -->

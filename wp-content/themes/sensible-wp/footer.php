@@ -140,12 +140,12 @@
     <?php endif; ?>
 
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer" role="contentinfo" style="background-image:radial-gradient(ellipse at center, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%),url('img/textura.png'); background-repeat:repeat">
     	<div class="grid grid-pad">
 			<div class="site-info col-1-1">
 
-					<p>Realizado por NitroInteractivo</p>
-					<p>www.nitrointeractivo.com</p>
+					<p style="color:white">Realizado por NitroInteractivo</p>
+					<p style="color:white">www.nitrointeractivo.com</p>
 
 			</div><!-- .site-info -->
         </div><!-- grid -->

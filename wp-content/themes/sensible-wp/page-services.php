@@ -105,22 +105,34 @@ get_header(); ?>
 					</div><!-- col-1-3 -->
 
 
-				<div class="content-area col-1-1">
+					<div class="col-1-1" style="text-align:center: width:100%; border-top:1px dashed #61666b; border-bottom:1px dashed #61666b;padding:1em; ">
+							<p style="color:#61666b; "> Saraza nose ni lo que va</p>
+					</div>
 
-					<?php while ( have_posts() ) : the_post(); ?>
+					<div class="col-1-1" style="text-align:center">
 
-						<?php get_template_part( 'content', 'page' ); ?>
+						<p style="color:#052561; font-weight:bold;"> jkasndkansd</p>
+						<p >asdasdasdasdasd</p>
 
-						<?php
-							// If comments are open or we have at least one comment, load up the comment template
-							if ( comments_open() || get_comments_number() ) :
-								comments_template();
-							endif;
-						?>
+						<p style="color:#052561; font-weight:bold;"> jkasndkansd</p>
+						<p >asdasdasdasdasd</p>
 
-					<?php endwhile; // end of the loop. ?>
+						<p style="color:#052561; font-weight:bold;"> jkasndkansd</p>
+						<p >asdasdasdasasddasd</p>
+						<p >asdasdasdasdasd</p>
+						<p >asdasdasdasdasdasdasdasdasdasd</p>
+						<p >asdasdasdasdasdsda asd asd asd asd asd  asdasdasdasd</p>
+						<p style="color:#052561; font-weight:bold;"> jkasndkansd</p>
+						<p >asdasdasdasdasd</p>
+						<p style="color:#052561; font-weight:bold;"> jkasndkansd</p>
+						<p >asdasdasdasdasd</p>
+						<p style="color:#052561; font-weight:bold;"> jkasndkansd</p>
+						<p >asdasdasdasdasd</p>
 
-				</div><!-- col-1-1 -->
+					</div>
+
+
+
 
 
         </div><!-- grid -->

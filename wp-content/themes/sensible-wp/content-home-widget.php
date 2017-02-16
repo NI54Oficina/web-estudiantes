@@ -27,7 +27,6 @@
 
 														<p>Su estadio de básquet, el Osvaldo Casanova tiene capacidad para 3950...</p>
 
-														<button class="outline white">Ver más</button>
 
                     	</div><!-- col-1-1 -->
 

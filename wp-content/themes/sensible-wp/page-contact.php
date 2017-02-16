@@ -110,41 +110,9 @@ img.emoji {
 
 					<button class="menu-toggle toggle-menu menu-right push-body"><i class="fa fa-bars"></i> Menu</button>
 					<div class="menu-all-pages-container"><ul id="menu-all-pages" class="menu"><li id="menu-item-1955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1955"><a href="https://modernthemes.net/wordpress-demo/sensible/">Home</a></li>
-<li id="menu-item-1953" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1953"><a href="https://modernthemes.net/wordpress-demo/sensible/pages/">Pages</a>
-<ul class="sub-menu">
-	<li id="menu-item-1954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1954"><a href="https://modernthemes.net/wordpress-demo/sensible/pages/">Default Page</a></li>
-	<li id="menu-item-1951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1951"><a href="https://modernthemes.net/wordpress-demo/sensible/left-sidebar/">Left Sidebar</a></li>
-	<li id="menu-item-1952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1952"><a href="https://modernthemes.net/wordpress-demo/sensible/fullwidth-page/">Fullwidth Page</a></li>
-	<li id="menu-item-1957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1957"><a href="https://modernthemes.net/wordpress-demo/sensible/services-page/">Services Page</a></li>
-	<li id="menu-item-1956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1956"><a href="https://modernthemes.net/wordpress-demo/sensible/team-member-page/">Team Member Page</a></li>
-</ul>
-</li>
-<li id="menu-item-1950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1950"><a href="https://modernthemes.net/wordpress-demo/sensible/blog/">Blog</a>
-<ul class="sub-menu">
-	<li id="menu-item-1975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1975"><a href="https://modernthemes.net/wordpress-demo/sensible/blog/">Blog Archive</a></li>
-	<li id="menu-item-1973" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1973"><a href="https://modernthemes.net/wordpress-demo/sensible/2014/12/03/how-to-join-a-guild/">Single Post</a></li>
-	<li id="menu-item-1974" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1974"><a href="https://modernthemes.net/wordpress-demo/sensible/category/fun/">Category</a></li>
-</ul>
-</li>
-<li id="menu-item-1959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1959"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/">Shortcodes</a>
-<ul class="sub-menu">
-	<li id="menu-item-1961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1961"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/accordions/">Accordions</a></li>
-	<li id="menu-item-1962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1962"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/buttons/">Buttons</a></li>
-	<li id="menu-item-1963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1963"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/columns/">Columns</a></li>
-	<li id="menu-item-1964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1964"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/dividers/">Dividers</a></li>
-	<li id="menu-item-1965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1965"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/galleries/">Galleries</a></li>
-	<li id="menu-item-1966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1966"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/lightboxes/">Lightboxes</a></li>
-	<li id="menu-item-1967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1967"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/posts/">Posts</a></li>
-	<li id="menu-item-1968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1968"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/quotes/">Quotes</a></li>
-	<li id="menu-item-1969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1969"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/sliders/">Sliders</a></li>
-	<li id="menu-item-1970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1970"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/tables/">Tables</a></li>
-	<li id="menu-item-1971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1971"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/tabs/">Tabs</a>
-	<ul class="sub-menu">
-		<li id="menu-item-1960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1960"><a href="https://modernthemes.net/wordpress-demo/sensible/shortcodes/videos/">Videos</a></li>
-	</ul>
-</li>
-</ul>
-</li>
+
+
+
 <li id="menu-item-1948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1948"><a target="_blank" href="http://modernthemes.net/wordpress-themes/sensible-pro/">Pro Features</a></li>
 <li id="menu-item-1958" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1867 current_page_item menu-item-1958"><a href="https://modernthemes.net/wordpress-demo/sensible/contact/">Contact</a></li>
 </ul></div>
@@ -157,15 +125,10 @@ img.emoji {
 
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
 		<h3>Menu</h3>
+
+
 		<div class="menu-all-pages-container"><ul id="menu-all-pages-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1955"><a href="https://modernthemes.net/wordpress-demo/sensible/">Home</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1953"><a href="https://modernthemes.net/wordpress-demo/sensible/pages/">Pages</a>
-<ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1954"><a href="https://modernthemes.net/wordpress-demo/sensible/pages/">Default Page</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1951"><a href="https://modernthemes.net/wordpress-demo/sensible/left-sidebar/">Left Sidebar</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1952"><a href="https://modernthemes.net/wordpress-demo/sensible/fullwidth-page/">Fullwidth Page</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1957"><a href="https://modernthemes.net/wordpress-demo/sensible/services-page/">Services Page</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1956"><a href="https://modernthemes.net/wordpress-demo/sensible/team-member-page/">Team Member Page</a></li>
-</ul>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1950"><a href="https://modernthemes.net/wordpress-demo/sensible/blog/">Blog</a>
 <ul class="sub-menu">
@@ -216,6 +179,18 @@ img.emoji {
 
 		<div class="col-9-12">
 				<iframe style="width:100%; height:250px;"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10472.34584621621!2d-62.271434748342266!3d-38.707544080170756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa+Blanca%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1487254124596" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+		<div class="">
+			<h1 style="color:#052561;font-weight:bold;">Entradas</h1>
+
+			<p style="color:#052561;font-weight:bold;">Boleteria</p>
+			<p>Calle Angel Brunel </p>
+
+			<p style="color:#052561; font-weight:bold;">Acceso Principal</p>
+			<p>Santa Fe  51.</p>
+
+
 		</div>
 
 
@@ -304,7 +279,7 @@ img.emoji {
         			<div class="col-1-1">
 
 
-                        <span class="wow animated fadeIn">Footer Social Icons:</span>
+
 
 
 
@@ -313,7 +288,7 @@ img.emoji {
 
 
 
-                        	<ul class='social-media-icons'>
+                        	<!-- <ul class='social-media-icons'>
 
                                 	<li>
                                     <a href="http://facebook.com" target="_blank">
@@ -353,7 +328,7 @@ img.emoji {
                                     </a>
                                     </li>
 
-                        	</ul>
+                        	</ul> -->
 
 
 
@@ -376,7 +351,7 @@ img.emoji {
 
 
 
-                    <h6>Include your contact information.</h6>
+                    <h6>CONTACTO</h6>
 
 
             </div><!-- col-1-1 -->
@@ -457,7 +432,8 @@ img.emoji {
     	<div class="grid grid-pad">
 			<div class="site-info col-1-1">
 
-    				Theme: Sensible by <a href="http://modernthemes.net" rel="designer">modernthemes.net</a>							</div><!-- .site-info -->
+    				Realizado por Nitro Interactivo <br>
+						 <a href="http://modernthemes.net" rel="designer">www.nitrointeractivo.com</a>							</div><!-- .site-info -->
         </div><!-- grid -->
 	</footer><!-- #colophon -->
 

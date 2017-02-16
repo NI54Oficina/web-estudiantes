@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="https://modernthemes.net/wordpress-demo/sensible/xmlrpc.php">
-<title>Contact &#8211; Sensible</title>
+<title>CONTACTO</title>
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Sensible &raquo; Feed" href="https://modernthemes.net/wordpress-demo/sensible/feed/" />
@@ -113,8 +113,10 @@ img.emoji {
 
 
 
-<li id="menu-item-1948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1948"><a target="_blank" href="http://modernthemes.net/wordpress-themes/sensible-pro/">Pro Features</a></li>
-<li id="menu-item-1958" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1867 current_page_item menu-item-1958"><a href="https://modernthemes.net/wordpress-demo/sensible/contact/">Contact</a></li>
+<li id="menu-item-1948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1948"><a target="_blank" href="/web-estudiantes/">Inicio</a></li>
+
+
+
 </ul></div>
 
 				</nav><!-- #site-navigation -->
@@ -157,7 +159,7 @@ img.emoji {
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1948"><a target="_blank" href="http://modernthemes.net/wordpress-themes/sensible-pro/">Pro Features</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1867 current_page_item menu-item-1958"><a href="https://modernthemes.net/wordpress-demo/sensible/contact/">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1867 current_page_item menu-item-1958"><a href="https://modernthemes.net/wordpress-demo/sensible/contact/">Contacto</a></li>
 </ul></div>
 	</nav>
 

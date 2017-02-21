@@ -11,17 +11,23 @@ get_header(); ?>
 
         	<section id="hero-header" data-speed="8" data-type="background" style="background: url('<?php echo esc_url( get_theme_mod( 'sensiblewp_main_bg', ( get_stylesheet_directory_uri( 'stylesheet_directory') . '/img/hero-1.jpg'))); ?>')  50% 0 no-repeat fixed;">
             	<div class="hero-content-container">
-                	<div class="hero-content">
+                	<div class="hero-content" style="display: table;
+    position: absolute;
+    text-align: left;
+    padding-right: 15em;
+    right: 0;">
 
                             <span>
 
-                            <?php if ( get_theme_mod( 'sensiblewp_first_heading' ) ) : ?>
 
-               					<h1 class="animated fadeInDown delay">
-									<?php echo esc_textarea( get_theme_mod( 'sensiblewp_first_heading')) ?>
+
+               					<h1 class="animated fadeInDown delay" style="text-align:left;font-size: 25px;  line-height: 30px;">
+													ENCUENTRO NACIONAL <br>
+													DE MINIBASQUET 2017
                                 </h1>
 
-							<?php endif; ?>
+																<p style="color:white">12, 13, 14 DE MAYO <br>Bahía Blanca</p>
+
 
                             <?php if ( get_theme_mod( 'sensiblewp_hero_button_text' ) ) : ?>
 

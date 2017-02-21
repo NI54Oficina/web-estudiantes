@@ -10,31 +10,33 @@
  * @package sensible-wp
  */
 
-get_header(); ?> 
+get_header(); ?>
 
 	<?php if (has_post_thumbnail( $post->ID ) ): ?>
 		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); $image = $image[0]; ?>
-            
+
     	<header class="featured-img-header" data-speed="8" data-type="background" style="background: url('<?php echo $image; ?>') 50% 0 no-repeat fixed;">
     		<div class="grid grid-pad">
         		<div class="col-1-1">
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
         		</div><!-- .col-1-1 -->
         	</div><!-- .grid -->
-		</header><!-- .entry-header --> 
-    
+		</header><!-- .entry-header -->
+
 		<?php else : ?>
-        
-        <header class="entry-header">
+
+        <header class="entry-header" style="background-image:url('/web-estudiantes/img/historia.png');background-position-x:center; background-position-y: 100%; background-repeat:no-repeat; background-size:100% auto">
     		<div class="grid grid-pad">
         		<div class="col-1-1">
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+
+
         		</div><!-- .col-1-1 -->
         	</div><!-- .grid -->
 		</header><!-- .entry-header -->
-        
+
 	<?php endif; ?>
-    
+
 	<div class="grid grid-pad">
 		<div id="primary" class="content-area col-9-12">
 			<main id="main" class="site-main" role="main">
@@ -56,5 +58,5 @@ get_header(); ?>
 		</div><!-- #primary -->
 
 	<?php get_sidebar(); ?>
-	</div><!-- .grid -->  
+	</div><!-- .grid -->
 	<?php get_footer(); ?>

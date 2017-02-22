@@ -25,7 +25,7 @@ get_header(); ?>
 
 		<?php else : ?>
 
-        <header class="entry-header" style="background-image:url('/web-estudiantes/img/historia.png');background-position-x:center; background-position-y: 100%; background-repeat:no-repeat; background-size:100% auto">
+        <header class="entry-header" style="background-image:url('<?php echo url_site(); ?>/img/historia.png');background-position-x:center; background-position-y: 100%; background-repeat:no-repeat; background-size:100% auto">
     		<div class="grid grid-pad">
         		<div class="col-1-1">
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>

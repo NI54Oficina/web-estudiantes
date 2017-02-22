@@ -20,7 +20,7 @@ get_header(); ?>
 
 		<?php else : ?>
 
-        <header class="entry-header" style="background-image:url('/web-estudiantes/img/actividades.png')">
+        <header class="entry-header" style="background-image:url('<?php echo url_site(); ?>/img/actividades.png')">
     		<div class="grid grid-pad">
         		<div class="col-1-1">
 					<h1 class="entry-title">DISTINCIONES Y ACTIVIDADES</h1>
@@ -45,7 +45,7 @@ get_header(); ?>
 
                         	<?php if ( get_theme_mod( 'page_service_icon_1' ) ) : ?>
                 				<!-- <i class="fa <?php echo esc_html( get_theme_mod( 'page_service_icon_1' )); ?>"></i> -->
-												<img src="/web-estudiantes/img/basquet.svg" alt="">
+												<img src="<?php echo url_site(); ?>/img/basquet.svg" alt="">
                             <?php endif; ?>
 
                             <?php if ( get_theme_mod( 'page_service_title_1' ) ) : ?>
@@ -68,7 +68,7 @@ get_header(); ?>
 
                         	<?php if ( get_theme_mod( 'page_service_icon_2' ) ) : ?>
                 				<!-- <i class="fa <?php echo esc_html( get_theme_mod( 'page_service_icon_2' )); ?>"></i> -->
-													<img src="/web-estudiantes/img/handball.svg" alt="">
+													<img src="<?php echo url_site(); ?>/img/handball.svg" alt="">
                             <?php endif; ?>
 
                             <?php if ( get_theme_mod( 'page_service_title_2' ) ) : ?>
@@ -91,7 +91,7 @@ get_header(); ?>
 
                         	<?php if ( get_theme_mod( 'page_service_icon_3' ) ) : ?>
                 				<!-- <i class="fa <?php echo esc_html( get_theme_mod( 'page_service_icon_3' )); ?>"></i> -->
-												<img src="/web-estudiantes/img/pelota_paleta.svg" alt="">
+												<img src="<?php echo url_site(); ?>/img/pelota_paleta.svg" alt="">
                             <?php endif; ?>
 
                             <?php if ( get_theme_mod( 'page_service_title_3' ) ) : ?>
@@ -114,7 +114,7 @@ get_header(); ?>
 
 								<?php if ( get_theme_mod( 'page_service_icon_3' ) ) : ?>
 							<!-- <i class="fa <?php echo esc_html( get_theme_mod( 'page_service_icon_3' )); ?>"></i> -->
-							<img src="/web-estudiantes/img/voley.svg" alt="">
+							<img src="<?php echo url_site(); ?>/img/voley.svg" alt="">
 									<?php endif; ?>
 
 									<?php if ( get_theme_mod( 'page_service_title_3' ) ) : ?>
@@ -135,7 +135,7 @@ get_header(); ?>
 
 			<?php if ( get_theme_mod( 'page_service_icon_3' ) ) : ?>
 		<!-- <i class="fa <?php echo esc_html( get_theme_mod( 'page_service_icon_3' )); ?>"></i> -->
-		<img src="/web-estudiantes/img/pelota_paleta.svg" alt="">
+		<img src="<?php echo url_site(); ?>/img/pelota_paleta.svg" alt="">
 				<?php endif; ?>
 
 				<?php if ( get_theme_mod( 'page_service_title_3' ) ) : ?>
@@ -157,7 +157,7 @@ get_header(); ?>
 
 			<?php if ( get_theme_mod( 'page_service_icon_3' ) ) : ?>
 		<!-- <i class="fa <?php echo esc_html( get_theme_mod( 'page_service_icon_3' )); ?>"></i> -->
-		<img src="/web-estudiantes/img/judo.svg" alt="">
+		<img src="<?php echo url_site(); ?>/img/judo.svg" alt="">
 				<?php endif; ?>
 
 				<?php if ( get_theme_mod( 'page_service_title_3' ) ) : ?>

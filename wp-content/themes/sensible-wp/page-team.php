@@ -44,7 +44,7 @@ get_header(); ?>
                         <?php if( get_theme_mod( 'page_active_member_1' ) == '') : ?>
 
 
-        						<img src="<?php echo url_site(); ?>/img/organizadores-01.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+        						<img src="<?php echo site_url(); ?>/img/organizadores-01.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 
 
                             <?php if ( get_theme_mod( 'page_member_name_1' ) ) : ?>
@@ -88,7 +88,7 @@ get_header(); ?>
                         <?php if( get_theme_mod( 'page_active_member_2' ) == '') : ?>
 
 
-        						<img src="<?php echo url_site(); ?>/img/organizadores-02.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+        						<img src="<?php echo site_url(); ?>/img/organizadores-02.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 
 
                             <?php if ( get_theme_mod( 'page_member_name_2' ) ) : ?>
@@ -132,7 +132,7 @@ get_header(); ?>
                         <?php if( get_theme_mod( 'page_active_member_3' ) == '') : ?>
 
 
-        						<img src="<?php echo url_site(); ?>/img/organizadores-01.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+        						<img src="<?php echo site_url(); ?>/img/organizadores-01.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 
 
                             <?php if ( get_theme_mod( 'page_member_name_3' ) ) : ?>
@@ -176,7 +176,7 @@ get_header(); ?>
                         <?php if( get_theme_mod( 'page_active_member_2' ) == '') : ?>
 
 
-        						<img src="<?php echo url_site(); ?>/img/organizadores-02.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+        						<img src="<?php echo site_url(); ?>/img/organizadores-02.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 
 
                             <?php if ( get_theme_mod( 'page_member_name_2' ) ) : ?>

@@ -58,7 +58,7 @@
                 <div class="home-blog-cta">
         			<div class="grid grid-pad">
             			<div class="col-1-1">
-                			<a href="<?php echo url_site(); ?>/club-estudiantes">
+                			<a href="<?php echo site_url(); ?>/club-estudiantes">
 							<button class="outline white"><?php echo esc_html( get_theme_mod( 'blog_cta' )); ?></button>
                             </a>
         				</div><!-- col-1-1 -->

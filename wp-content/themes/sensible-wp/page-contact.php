@@ -113,7 +113,7 @@ img.emoji {
 
 
 
-<li id="menu-item-1948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1948"><a target="_blank" href="<?php echo url_site(); ?>">Inicio</a></li>
+<li id="menu-item-1948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1948"><a target="_blank" href="<?php echo site_url(); ?>">Inicio</a></li>
 
 
 

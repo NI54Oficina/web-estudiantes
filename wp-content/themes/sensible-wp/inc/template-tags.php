@@ -79,7 +79,7 @@ function sensiblewp_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		_x( 'Posted on %s', 'post date', 'sensible-wp' ),
+		_x( 'Publicado el %s', 'post date', 'sensible-wp' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 

@@ -10,7 +10,7 @@ get_header(); ?>
 	<header class="entry-header">
     		<div class="grid grid-pad">
         		<div class="col-1-1">
-					<h1 style="color:white;"class="page-title"><?php _e( 'Oops! Parece que la página no pudo ser encontrada', 'sensible-wp' ); ?></h1>
+					<h1 style="color:white;"class="page-title"><?php _e( 'Página no encontrada.', 'sensible-wp' ); ?></h1>
         		</div><!-- .col-1-1 -->
         	</div><!-- .grid -->
 	</header><!-- .entry-header -->
@@ -25,7 +25,8 @@ get_header(); ?>
 
 				<div class="page-content">
 
-					<img style="margin:5em auto" src="/web-estudiantes/img/error.svg" alt="">
+					<img style="margin:5em auto" src="http://clubestudiantesbb.com/img/error.svg" alt=""><br>
+					<button class="btn-enviar-contacto" type="button" onclick="window.location.assign('http://clubestudiantesbb.com')">Volver al inicio</button>
 
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->

@@ -42,7 +42,7 @@
 
             				<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('sensible-wp-home-blog'); ?></a>
 							<h5><?php the_title(); ?></h5>
-                        	<p><?php $content = get_the_content(); echo wp_trim_words( $content , '20' ); ?> <a href="<?php the_permalink(); ?>"> Read More</a></p>
+                        	<p><?php $content = get_the_content(); echo wp_trim_words( $content , '20' ); ?> <a href="<?php the_permalink(); ?>"> Leer más</a></p>
 
                         </div><!-- col-1-3 -->
 

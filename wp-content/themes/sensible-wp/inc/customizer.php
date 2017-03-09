@@ -2773,6 +2773,8 @@ function sensiblewp_theme_customizer( $wp_customize ) {
 		'priority'   => 3
 	))); 
 	
+	
+	
 	// Page - Team Member Text 2
 	$wp_customize->add_setting( 'page_member_text_2' ,
 	    array(
@@ -2978,6 +2980,44 @@ function sensiblewp_theme_customizer( $wp_customize ) {
 		'settings' => 'page_member_email_3', 
 		'priority'   => 9 
 	)));
+	
+	/*// Page - Home Team Member 4
+	$wp_customize->add_section( 'page_sensiblewp_team_member_4', array(
+		'title'          => esc_html__( 'Team Member 4', 'sensible-wp' ),
+		'priority'       => 50,
+		'description' => esc_html__( 'Edit your Team Member 4', 'sensible-wp' ),
+		'panel' => 'page_team_panel',   
+	));
+	
+	$wp_customize->add_setting('page_active_member_4', 
+	    array(
+	        'sanitize_callback' => 'sensiblewp_sanitize_checkbox',
+	    ) 
+	);  
+	
+	$wp_customize->add_control( 
+    'page_active_member_4', 
+    array(
+        'type' => 'checkbox',
+        'label' => esc_html__( 'Hide Member Box 4', 'sensible-wp' ),
+        'section' => 'page_sensiblewp_team_member_4', 
+		'priority'   => 1
+    ));
+	
+	// Page - Team Member Name 4
+	$wp_customize->add_setting( 'page_member_name_4',
+	    array(
+	        'sanitize_callback' => 'sensiblewp_sanitize_text', 
+	));  
+
+	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'page_member_name_4', array(
+		'label'    => esc_html__( 'Team Member Name 4', 'sensible-wp' ),
+		'section'  => 'page_sensiblewp_team_member_4', 
+		'settings' => 'page_member_name_4',
+		'priority'   => 3
+	))); 
+	
+	*/
 	
 
 	// Set site name and description to be previewed in real-time

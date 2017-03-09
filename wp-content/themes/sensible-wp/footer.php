@@ -91,7 +91,7 @@
 
                         <?php if ( get_theme_mod( 'bottom_footer_icon_2' ) ) : ?>
 
-                            <i class="fa <?php echo wp_kses_post( get_theme_mod( 'bottom_footer_icon_2', __( 'fa-mobile', 'sensible-wp' ) )); // second icon ?>"></i>
+                            <i class="fa fa-envelope"></i> 
 
 						<?php endif; ?>
 
@@ -115,7 +115,7 @@
 
                         <?php if ( get_theme_mod( 'bottom_footer_icon_3' ) ) : ?>
 
-                            <i class="fa <?php echo wp_kses_post( get_theme_mod( 'bottom_footer_icon_3', __( 'fa-envelope-o', 'sensible-wp' ) )); // third icon ?>"></i>
+                            <i class="fa fa-map-marker"></i>
 
 						<?php endif; ?>
 

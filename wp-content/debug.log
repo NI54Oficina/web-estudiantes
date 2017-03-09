@@ -3,3 +3,30 @@
 [23-Feb-2017 13:01:24 UTC] PHP Fatal error:  Call to undefined function url_site() in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\footer.php on line 143
 [23-Feb-2017 13:02:42 UTC] PHP Fatal error:  Call to undefined function url_site() in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\content-news.php on line 61
 [23-Feb-2017 13:03:34 UTC] PHP Fatal error:  Call to undefined function url_site() in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\content-news.php on line 61
+[24-Feb-2017 15:11:12 UTC] PHP Notice:  Undefined index: script in C:\wamp\www\web-estudiantes\wp-includes\kses.php on line 866
+[24-Feb-2017 15:11:12 UTC] PHP Notice:  Undefined index: link in C:\wamp\www\web-estudiantes\wp-includes\kses.php on line 866
+[01-Mar-2017 14:19:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\wamp\www\web-estudiantes\wp-includes\Requests\Transport\fsockopen.php on line 123
+[01-Mar-2017 15:02:47 UTC] PHP Notice:  Undefined index: script in C:\wamp\www\web-estudiantes\wp-includes\kses.php on line 866
+[02-Mar-2017 14:20:10 UTC] PHP Notice:  Undefined index: message_name in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 65
+[02-Mar-2017 14:20:10 UTC] PHP Notice:  Undefined index: message_email in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 68
+[02-Mar-2017 14:20:10 UTC] PHP Notice:  Undefined index: message_text in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 71
+[02-Mar-2017 14:21:50 UTC] PHP Notice:  Undefined index: message_name in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 65
+[02-Mar-2017 14:21:50 UTC] PHP Notice:  Undefined index: message_email in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 68
+[02-Mar-2017 14:21:50 UTC] PHP Notice:  Undefined index: message_text in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 71
+[02-Mar-2017 14:50:40 UTC] PHP Notice:  Undefined index: message_name in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 26
+[02-Mar-2017 14:50:40 UTC] PHP Notice:  Undefined index: message_email in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 27
+[02-Mar-2017 14:50:40 UTC] PHP Notice:  Undefined index: message_text in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 28
+[02-Mar-2017 14:50:40 UTC] PHP Notice:  Undefined index: message_human in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 29
+[02-Mar-2017 14:50:40 UTC] PHP Notice:  Undefined index: submitted in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 59
+[02-Mar-2017 14:50:50 UTC] PHP Notice:  Undefined index: message_email in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 27
+[02-Mar-2017 14:50:50 UTC] PHP Notice:  Undefined index: message_email in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 122
+[02-Mar-2017 14:51:31 UTC] PHP Notice:  Undefined index: message_name in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 26
+[02-Mar-2017 14:51:31 UTC] PHP Notice:  Undefined index: message_email in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 27
+[02-Mar-2017 14:51:31 UTC] PHP Notice:  Undefined index: message_text in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 28
+[02-Mar-2017 14:51:31 UTC] PHP Notice:  Undefined index: message_human in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 29
+[02-Mar-2017 14:51:31 UTC] PHP Notice:  Undefined index: submitted in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 59
+[02-Mar-2017 19:18:27 UTC] PHP Notice:  Undefined variable: sent in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 113
+[03-Mar-2017 14:16:16 UTC] PHP Notice:  Undefined variable: sent in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 113
+[03-Mar-2017 14:18:27 UTC] PHP Notice:  Undefined variable: sent in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 115
+[03-Mar-2017 14:20:18 UTC] PHP Notice:  Undefined variable: sent in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 115
+[06-Mar-2017 15:37:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\wamp\www\web-estudiantes\wp-includes\wp-db.php on line 1879

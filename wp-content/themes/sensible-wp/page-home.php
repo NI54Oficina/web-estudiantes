@@ -14,14 +14,14 @@ get_header(); ?>
                 	<div class="hero-content" style="display: table;
     position: absolute;
     text-align: left;
-    padding-right: 15em;
+    padding-right: 10%;
     right: 0;">
 
                             <span>
 
 
 
-               					<h1 class="animated fadeInDown delay" style="text-align:left;font-size: 25px;  line-height: 30px;">
+               					<h1 class="animated fadeInDown delay" style="text-align:left;font-size: 35px;  line-height: 45px;">
 													ENCUENTRO NACIONAL <br>
 													DE MINIBASQUET 2017
                                 </h1>

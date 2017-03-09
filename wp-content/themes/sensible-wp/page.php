@@ -18,7 +18,10 @@ get_header(); ?>
     	<header class="featured-img-header" data-speed="8" data-type="background" style="background: url('<?php echo $image; ?>') 50% 0 no-repeat fixed;">
     		<div class="grid grid-pad">
         		<div class="col-1-1">
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<?php  if(get_the_title()!="Club Estudiantes"){
+						the_title( '<h1 class="entry-title">', '</h1>' ); }else{
+						the_title( '<h1 class="entry-title hidden-md hidden-lg">', '</h1>' );
+					}?>
         		</div><!-- .col-1-1 -->
         	</div><!-- .grid -->
 		</header><!-- .entry-header -->

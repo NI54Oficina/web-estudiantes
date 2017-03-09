@@ -31,7 +31,7 @@
                         <?php if( get_theme_mod( 'active_service_1' ) == '') : ?>
                         
                         	<?php if ( get_theme_mod( 'service_icon_1' ) ) : ?>
-                				<i class="fa <?php echo esc_html( get_theme_mod( 'service_icon_1' )); ?>"></i>
+                				<i class="fa fa-star"></i>
                             <?php endif; ?> 
                             
                             <?php if ( get_theme_mod( 'service_title_1' ) ) : ?>
@@ -53,7 +53,7 @@
                         <?php if( get_theme_mod( 'active_service_2' ) == '') : ?>
                         
                         	<?php if ( get_theme_mod( 'service_icon_2' ) ) : ?>
-                				<i class="fa <?php echo esc_html( get_theme_mod( 'service_icon_2' )); ?>"></i>
+                				<i class="fa ionicons ion-ios-basketball"></i>
                             <?php endif; ?> 
                             
                             <?php if ( get_theme_mod( 'service_title_2' ) ) : ?>
@@ -75,7 +75,7 @@
                          <?php if( get_theme_mod( 'active_service_3' ) == '') : ?>
                         
                         	<?php if ( get_theme_mod( 'service_icon_3' ) ) : ?>
-                				<i class="fa <?php echo esc_html( get_theme_mod( 'service_icon_3' )); ?>"></i>
+                				<i class="fa ionicons ion-ribbon-b"></i>
                             <?php endif; ?> 
                             
                             <?php if ( get_theme_mod( 'service_title_3' ) ) : ?>

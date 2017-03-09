@@ -227,3 +227,24 @@ require get_template_directory() . "/widgets/video-widget.php";
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+//function new_mail_from_name($old) { return 'ClubEstudiantesBB'; }
+//function new_mail_from($old) { return 'fran@ni54.com'; } 
+
+//add_filter('wp_mail_from', 'new_mail_from');
+add_filter('wp_mail_from_name', 'new_mail_from_name');
+ 
+/*function new_mail_from($old) {
+ return 'fran@ni54.com';
+}*/
+function new_mail_from_name($old) {
+ return 'ClubEstudiantesBB';
+}
+
+function SearchFilter($query) {
+if ($query->is_search) {
+$query->set('post_type', 'post');
+}
+return $query;
+}
+
+add_filter('pre_get_posts','SearchFilter');

@@ -44,7 +44,7 @@ get_header(); ?>
                         <?php if( get_theme_mod( 'page_active_member_1' ) == '') : ?>
 
 
-        						<img src="<?php echo site_url(); ?>/img/organizadores-01.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+        						<img src="<?php echo site_url(); ?>/img/organizadores-04.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 
 
                             <?php if ( get_theme_mod( 'page_member_name_1' ) ) : ?>
@@ -88,7 +88,7 @@ get_header(); ?>
                         <?php if( get_theme_mod( 'page_active_member_2' ) == '') : ?>
 
 
-        						<img src="<?php echo site_url(); ?>/img/organizadores-02.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+        						<img src="<?php echo site_url(); ?>/img/organizadores-05.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 
 
                             <?php if ( get_theme_mod( 'page_member_name_2' ) ) : ?>
@@ -132,7 +132,7 @@ get_header(); ?>
                         <?php if( get_theme_mod( 'page_active_member_3' ) == '') : ?>
 
 
-        						<img src="<?php echo site_url(); ?>/img/organizadores-01.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+        						<img src="<?php echo site_url(); ?>/img/organizadores-05.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 
 
                             <?php if ( get_theme_mod( 'page_member_name_3' ) ) : ?>
@@ -168,7 +168,7 @@ get_header(); ?>
                         </div><!-- member -->
 					</div><!-- col-1-3 -->
                 </div>
-
+				<?php if(false){ ?>
 								<div class="page-tbox-2">
                     <div class="col-1-<?php echo esc_html( $team_page_columns_number ); ?> tri-clear wow animated fadeInLeft" data-wow-delay="0.15s">
     					<div class="member">
@@ -179,8 +179,8 @@ get_header(); ?>
         						<img src="<?php echo site_url(); ?>/img/organizadores-02.svg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 
 
-                            <?php if ( get_theme_mod( 'page_member_name_2' ) ) : ?>
-              					<h5><?php echo wp_kses_post( get_theme_mod( 'page_member_name_2' )); ?></h5>
+                            <?php if ( get_theme_mod( 'page_member_name_4' ) ) : ?>
+              					<h5><?php echo wp_kses_post( get_theme_mod( 'page_member_name_4' )); ?></h5>
                             <?php endif; ?>
 
                             <?php if ( get_theme_mod( 'page_member_text_2' ) ) : ?>
@@ -215,7 +215,7 @@ get_header(); ?>
 
 
 
-
+				<?php } ?>
 
         </div><!-- .grid -->
 

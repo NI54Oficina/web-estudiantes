@@ -216,7 +216,10 @@ get_header(); ?>
 
 
 				<?php } ?>
-
+				<div style="text-align:center !important;list-style:none;">
+				<?php the_post(); the_content(); ?>
+				</div>
+				
         </div><!-- .grid -->
 
 		</main><!-- #main -->

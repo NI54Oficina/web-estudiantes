@@ -13,7 +13,8 @@ get_header(); ?>
     	<header class="featured-img-header" data-speed="8" data-type="background" style="background: url('<?php echo $image; ?>') 50% 0 no-repeat fixed;">
     		<div class="grid grid-pad">
         		<div class="col-1-1">
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<h1 class="entry-title">Evento</h1>
         		</div><!-- .col-1-1 -->
         	</div><!-- .grid --> 
 		</header><!-- .entry-header --> 
@@ -23,7 +24,8 @@ get_header(); ?>
         <header class="entry-header">
     		<div class="grid grid-pad">
         		<div class="col-1-1">
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<h1 class="entry-title">Evento</h1>
         		</div><!-- .col-1-1 -->
         	</div><!-- .grid -->
 		</header><!-- .entry-header -->

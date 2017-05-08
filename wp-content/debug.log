@@ -31,3 +31,4 @@
 [03-Mar-2017 14:20:18 UTC] PHP Notice:  Undefined variable: sent in C:\wamp\www\web-estudiantes\wp-content\themes\sensible-wp\template-contacto.php on line 115
 [06-Mar-2017 15:37:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\wamp\www\web-estudiantes\wp-includes\wp-db.php on line 1879
 [12-Mar-2017 20:14:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\wamp\www\web-estudiantes\wp-includes\Requests\Transport\fsockopen.php on line 123
+[15-Mar-2017 15:04:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\wamp\www\web-estudiantes\wp-includes\Requests\Transport\fsockopen.php on line 123
